@@ -189,7 +189,7 @@ exports.inactiveuserthreshold = 1000 * 60 * 60;
 exports.customavatars = {
 	//'userid': 'customavatar.png'`
 	'diarmuidodyna': 'diarmuidodyna.png'
-	'ransei':'http://i.imgur.com/pMfqfKH.png'
+	'ransei':'ransei.png'
 	
 	
 };
