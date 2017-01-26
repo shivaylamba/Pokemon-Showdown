@@ -190,6 +190,7 @@ exports.customavatars = {
 	//'userid': 'customavatar.png'`
 	'diarmuidodyna': 'diarmuidodyna.png'
 	'ransei':'ransei.png'
+	'nekis13':'nekis.png'
 	
 	
 };
