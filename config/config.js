@@ -192,7 +192,7 @@ exports.customavatars = {
 	'ransei': 'ransei.png',
 	'nekis13': 'nekis.png',
 	'oriolesfan52': 'orioles.png',
-	'togedemarumega': 'toge.png',
+	'togedemarumega': 'toge.gif',
 };
 
 // tourroom - specify a room to receive tournament announcements (defaults to
