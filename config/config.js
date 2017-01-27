@@ -190,7 +190,8 @@ exports.customavatars = {
 	//'userid': 'customavatar.png'`
 	'diarmuidodyna': 'diarmuidodyna.png',
 	'ransei': 'ransei.png',
-	'nekis13': 'nekis.png'
+	'nekis13': 'nekis.png',
+	'oriolesfan52': 'orioles.png',
 };
 
 // tourroom - specify a room to receive tournament announcements (defaults to
