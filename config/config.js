@@ -188,8 +188,8 @@ exports.inactiveuserthreshold = 1000 * 60 * 60;
 // displayed in the client.
 exports.customavatars = {
 	//'userid': 'customavatar.png'`
-	'diarmuidodyna': 'diarmuidodyna.png';
-	'ransei': 'ransei.png';
+	'diarmuidodyna': 'diarmuidodyna.png'
+	'ransei': 'ransei.png'
 	'nekis13': 'nekis.png'
 };
 
