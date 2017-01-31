@@ -1,7 +1,7 @@
 /*GENERAL*/
 
 button {
-    background: #FF0000;
+    background: #C70000;
     color: #FFF;
 }
 
@@ -35,7 +35,7 @@ button:hover {
 }
 
 .ps-room.ps-room-light {
-    color: #801212;
+    color: #C70000;
     background: url("http://i.imgur.com/138IlUi.jpg?1");
     font-size: 9pt;
 }
@@ -111,13 +111,13 @@ a.ilink {
 }
 
 .chat.highlighted {
-    background: #FF80D2;
-    color: #28169C;
+    background: #C70000;
+    color: #FFF;
     font-style: italic;
 }
 
 .message-announce {
-    background: #FF24BD;
+    background: #C70000;
     color: #FFF;
     font-style: italic;
 }
@@ -211,7 +211,7 @@ a.ilink {
 }
 
 .formatselect {
-    color: #FF24BD;
+    color: #000;
     font-size: 13pt;
     border-radius: 20px;
     text-align: center;
@@ -221,11 +221,11 @@ a.ilink {
 .formatselect:hover {
     color: #FFF;
     border-radius: 20px;
-    background: #FF24BD;
+    background: #FF4D4D;
 }
 
 .select.teamselect {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 30px;
     width: 240px;
     padding: 1px 20px;
@@ -234,25 +234,26 @@ a.ilink {
 }
 
 .select.teamselect:hover {
-    background-color: rgba(199, 0, 165, 0.5);
+    background-color: rgba(229, 42, 42, 0.4);
     border-radius: 30px;
     width: 240px;
     padding: 1px 20px;
     text-align: center;
-    color: #FFF;
+    color: #000;
 }
 
 .menugroup button.big {
-    color: #FF0000;
+    color: #000;
     font-size: 12pt;
     border-radius: 20px;
     text-align: center;
     background: #9E0000;
-    width: 230px;
+    width: 220px;
+    height: 50px;
 }
 
 .menugroup .button {
-    color: #FF0000;
+    color: #000;
     font-size: 10pt;
     text-align: center;
     background: #9E0000;
@@ -261,20 +262,20 @@ a.ilink {
     text-shadow: 0px -1px 1px #0F1923;
     border-radius: 20px;
     border: 1px solid #00C8FF;
-    background-color: #854BBF;
+    background-color: #9E0000;
 }
 
 .menugroup button.big:hover {
     width: 230px;
     color: #FFF;
     border-radius: 20px;
-    background: #9E0000;
+    background: #FF4D4D;
 }
 
 .menugroup .button:hover {
     color: #FFF;
     border-radius: 20px;
-    background: #9E0000;
+    background: #FF4D4D;
 }
 
 .menugroup {
