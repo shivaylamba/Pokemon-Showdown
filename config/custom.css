@@ -301,7 +301,7 @@ a.ilink {
     bottom: 0px;
     width: 145px;
     border-right: 1px solid #9E0000;
-    background: url("http://i.imgur.com/138IlUi.jpg?1");
+    background: rgba(0, 0, 0, 0.60);
     overflow: auto;
 }
 
@@ -321,7 +321,7 @@ a.ilink {
     font-size: 10pt;
     color: #FFF;
     word-wrap: break-word;
-    background: #000;
+    background: rgba(0, 0, 0, 0.70);
 }
 
 .chat-log-add {
