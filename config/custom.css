@@ -93,7 +93,7 @@ a.ilink {
 }
 
 .tabbar a.button.cur, .tabbar a.button.cur:hover {
-    background-color: #FF24BD;
+    background-color: #C70000;
     color: #00B7FF;
     text-shadow: 0px 0px 7px blue;
     box-shadow: none;
@@ -106,8 +106,8 @@ a.ilink {
 }
 
 .tabbar a.button {
-    background: #704BCC;
-    color: #FF8CDD;
+    background: #9E0000;
+    color: #FF4D4D;
 }
 
 .chat.highlighted {
