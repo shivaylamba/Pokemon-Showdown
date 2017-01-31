@@ -180,7 +180,7 @@ a.ilink {
     border: 0px none;
     border-radius: 2px;
     background: none repeat scroll 0% 0% transparent;
-    color: #FF24BD;
+    color: #FF0000;
     width: 204px;
     height: 19px;
     text-align: left;
@@ -199,6 +199,7 @@ a.ilink {
     color: #0078F0;
     width: 204px;
     height: 22px;
+    
     text-align: left;
     box-sizing: border-box;
 }
@@ -207,7 +208,10 @@ a.ilink {
     margin: 5px 0px 0px -2px;
     padding: 1px 0px;
     font-size: 9pt;
-    color: #FF24BD;
+    color: #
+        
+        
+        ;
 }
 
 .formatselect {
@@ -230,7 +234,7 @@ a.ilink {
     width: 240px;
     padding: 1px 20px;
     text-align: center;
-    color: #FF24BD;
+    color: #FF0000;
 }
 
 .select.teamselect:hover {
