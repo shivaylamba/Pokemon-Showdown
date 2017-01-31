@@ -1,35 +1,35 @@
 /*GENERAL*/
 
 button {
-    background: #C70000;
+    background: rgba(229, 42, 42, 0.15);
     color: #FFF;
 }
 
 button:hover {
-    background: #FF4D4D;
+    background: 9E0000;
     color: #FFF;
 }
 
 .kakuja-btn {
-  background: #FF0000;
-  color: #FFF;
-  text-shadow: 0px 0px 2px #9E0000;
-  border: 1px solid #9E0000;
-  border-bottom-width: 3px;
-  padding: 3px;
+    background: #FF0000;
+    color: #FFF;
+    text-shadow: 0px 0px 2px #9E0000;
+    border: 1px solid #9E0000;
+    border-bottom-width: 3px;
+    padding: 3px;
 }
 
 .kakuja-btn:hover {
-  background: #FF4D4D;
-  text-shadow: 0px -1px #9E0000;
+    background: #FF4D4D;
+    text-shadow: 0px -1px #9E0000;
 }
 
-.astext{ 
+.astext {
     border: none;
     background: none;
-    padding:0;
+    padding: 0;
     height: -20em;
-    font-family:Verdana,sans-serif;
+    font-family: Verdana,sans-serif;
     font-size: 12px;
     cursor: pointer;
 }
@@ -79,7 +79,7 @@ a.ilink {
     right: 0px;
     bottom: -6px;
     height: 6px;
-    background: none repeat scroll 0% 0% #FF24BD;
+    background: none repeat scroll 0% 0% #C70000;
     border-width: 1px 1px 1px 0px;
     border-style: solid solid solid none;
     border-color: #AAA #AAA #AAA -moz-use-text-color;
@@ -94,7 +94,7 @@ a.ilink {
 
 .tabbar a.button.cur, .tabbar a.button.cur:hover {
     background-color: #C70000;
-    color: #00B7FF;
+    color: #000000;
     text-shadow: 0px 0px 7px blue;
     box-shadow: none;
     border-color: #AAA #AAA -moz-use-text-color;
@@ -128,13 +128,13 @@ a.ilink {
     display: block;
     margin: 2px 7px 4px;
     padding: 1px 4px 2px;
-    border: 1px solid #96E7FF;
-    background-color: rgba(255, 44, 178, 0.6);
-    border-radius: 8px;
+    border: 1px solid #000000;
+    background-color: #C70000;
+    border-radius: 9px;
     text-decoration: none;
-    color: #FFF;
-    text-shadow: 0px -1px 0px #FF8CDD;
-    box-shadow: 1px 1px 1px #00B7FF;
+    color: #000;
+    text-shadow: 0px -1px 0px #470000;
+    box-shadow: 1px 1px 1px #9E0000;
     cursor: pointer;
     font-size: 10pt;
     overflow: hidden;
@@ -145,13 +145,13 @@ a.ilink {
     display: block;
     margin: 2px 7px 4px;
     padding: 1px 4px 2px;
-    border: 1px solid #1200B0;
-    background: none repeat scroll 0% 0% #8F00A8;
+    border: 1px solid #000;
+    background: none repeat scroll 0% 0% #FF4D4D;
     border-radius: 7px;
     text-decoration: none;
-    color: #003BA8;
-    text-shadow: 0px -1px 0px #FF0090;
-    box-shadow: 1px 1px 1px #FF0090;
+    color: #FFF;
+    text-shadow: 0px -1px 0px #C70000;
+    box-shadow: 1px 1px 1px #C70000;
     cursor: pointer;
     font-size: 10pt;
     overflow: hidden;
@@ -160,7 +160,7 @@ a.ilink {
 
 .roomlist a.ilink small {
     font-size: 10pt;
-    color: #F0F0F0;
+    color: #000;
 }
 
 .roomlist {
@@ -261,7 +261,7 @@ a.ilink {
     height: 30px;
     text-shadow: 0px -1px 1px #0F1923;
     border-radius: 20px;
-    border: 1px solid #00C8FF;
+    border: 1px solid #C70000;
     background-color: #9E0000;
 }
 
@@ -284,7 +284,7 @@ a.ilink {
     margin: 0px 27px 30px;
     max-width: 400px;
     border-radius: 20px;
-    background-color: rgba(141, 44, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #FF24BD;
     text-shadow: 0px 1px 0px #000;
 }
@@ -296,21 +296,21 @@ a.ilink {
     left: 0px;
     bottom: 0px;
     width: 145px;
-    border-right: 1px solid #FF24BD;
+    border-right: 1px solid #9E0000;
     background: url("http://i.imgur.com/138IlUi.jpg?1");
     overflow: auto;
 }
 
 .userlist li em.group {
-    color: #FF25D4;
+    color: #C70000;
 }
 
 .userlist li {
-    border-bottom: 1px solid #854BBF;
+    border-bottom: 1px solid #9E0000;
 }
 
 .userlist li button:hover {
-    background: #854BBF;
+    background: #FF4D4D;
 }
 
 .chat-log {
@@ -321,7 +321,7 @@ a.ilink {
 }
 
 .chat-log-add {
-    background: #FF24BD;
+    background: #9E0000;
 }
 
 body {
@@ -330,31 +330,32 @@ body {
 }
 
 .mainmenufooter a {
-    color: #FF25D4;
+    color: #C70000;
 }
 
 .mainmenufooter a:hover {
-    color: #FF49DB;
+    color: #FF4D4D;
 }
+
 .pm-window h3 {
-    background-color: #FF9EFD;
-    color: #FF45C4;
+    background-color: #C70000;
+    color: #000;
     margin: 0px;
     padding: 2px 5px;
     font-size: 11pt;
-    border: 1px solid #FF45C4;
+    border: 1px solid #C70000;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
 }
 
 .pm-window h3:hover {
-    background: #FF45C4;
-    color: #C90080;
+    background: #FF4D4D;
+    color: #FFF;
     margin: 0px;
     padding: 2px 5px;
     font-size: 11pt;
-    border: 1px solid #C90080;
+    border: 1px solid #C70000;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
@@ -373,21 +374,21 @@ body {
 }
 
 .pm-log-add {
-    border: 1px solid #AAA;
+    border: 1px solid #000;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background: none repeat scroll 0% 0% rgba(43, 43, 43, 0.85);
 }
 
 .pm-log-add:hover {
-    border: 1px solid #C90080;
+    border: 1px solid #000;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: #FF45C4;
+    background: rgba(229, 42, 42, 0.68);
 }
 
 .pm-window h3 small {
-    color: #FF25D4;
+    color: #FFF;
     font-weight: normal;
     vertical-align: 1px;
 }
@@ -419,33 +420,31 @@ body {
 /* Broadcast Customs */
 
 .broadcast-red {
-    background:#9D26FF;
-    border:1px solid #55158A;
-    color:#CCB9DC;
-    padding:5px 1px 3px 8px;
-    font-family:helvetica,arial,sans-serif;
-    text-align:center;
+    background: #9D26FF;
+    border: 1px solid #55158A;
+    color: #CCB9DC;
+    padding: 5px 1px 3px 8px;
+    font-family: helvetica,arial,sans-serif;
+    text-align: center;
 }
 
 .broadcast-green {
-    background:#3B83FF;
-    border:1px solid #234F99;
-    padding:5px 1px 3px 8px;
-    color:#C4DAFF;
-    font-family:helvetica,arial,sans-serif;
-    text-align:center;
+    background: #3B83FF;
+    border: 1px solid #234F99;
+    padding: 5px 1px 3px 8px;
+    color: #C4DAFF;
+    font-family: helvetica,arial,sans-serif;
+    text-align: center;
 }
 
 .broadcast-blue {
-    background:#FF24A4;
-    border:1px solid #FF7CC8;
-    padding:5px 1px 3px 8px;
-    color:#FFCBE9;
-    font-family:helvetica,arial,sans-serif;
-    text-align:center;
+    background: #FF24A4;
+    border: 1px solid #FF7CC8;
+    padding: 5px 1px 3px 8px;
+    color: #FFCBE9;
+    font-family: helvetica,arial,sans-serif;
+    text-align: center;
 }
-
-
 
 /*LADDER*/
 
@@ -616,7 +615,7 @@ body {
 
 .teambar button:hover {
     color: #FFF;
-    background: #212121;
+    background: #FF4D4D;
     border-color: #AAA;
     opacity: 1;
 }
@@ -698,9 +697,10 @@ body {
 
 /*BATTLE*/
 
+
+/*BATTLE*/
+
 .trainer div {
-    width: 86px;
-    height: 90px;
     opacity: 0.7;
     margin: 0px auto;
     background: rgba();
@@ -715,9 +715,9 @@ body {
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
     border-radius: 5px;
     margin-top: 2px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0px -1px 2px #FFF inset;
-    color: #FFF;
-    border: 1px solid #AAA;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0px -1px 2px #9E0000 inset;
+    color: #000;
+    border: 1px solid #000;
     background: -moz-linear-gradient(center top , #474747, #2B2B2B) repeat scroll 0% 0% transparent;
 }
 
@@ -746,9 +746,9 @@ body {
     border-radius: 5px;
     margin-top: 2px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 0px -1px 2px #FFF inset;
-    color: #FFF;
-    border: 1px solid #AAA;
-    background: -moz-linear-gradient(center top , #4D4D4D, #333333) repeat scroll 0% 0% transparent;
+    color: #000;
+    border: 1px solid #FF4D4D;
+    background: #FF4D4D;
 }
 
 .moveselect button {
@@ -763,7 +763,7 @@ body {
     height: 450px;
     width: 100px;
     background-color: rgba(43, 43, 43, 1);
-    border-left: 1px solid rgba(215, 215, 215, 0.8);
+    border-left: 1px solid #000;
     color: #FFF;
 }
 
@@ -774,7 +774,7 @@ body {
     height: 450px;
     width: 100px;
     background-color: rgba(43, 43, 43,1);
-    border-left: 1px solid rgba(215, 215, 215, 0.8);
+    border-left: 1px solid #000;
     color: #FFF;
 }
 
@@ -785,13 +785,13 @@ body {
 
 .battle-controls .whatdo {
     font-size: 9pt;
-    color: #FFF;
+    color: #000;
 }
 
 .battle-log-add {
     position: absolute;
     text-align: left;
-    border: 1px solid #AAA;
+    border: 1px solid #000;
     background: none repeat scroll 0% 0% #2B2B2B;
     color: #FFF;
     top: 369px;
@@ -806,20 +806,20 @@ body {
     padding: 4px 8px;
     border-width: 1px 0px;
     border-style: solid none;
-    border-color: #AAA -moz-use-text-color;
+    border-color: #AAA; -moz-use-text-color;
     -moz-border-top-colors: none;
     -moz-border-right-colors: none;
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     border-image: none;
-    background: none repeat scroll 0% 0% #1C1C1C;
+    background: none repeat scroll 0% 0% #470000;
     font-family: Verdana,sans-serif;
     font-size: 13pt;
-    color: #FF25D4;
+    color: #FFF;
 }
 
 .battle-log .rated strong {
-    color: #FFF;
+    color: #000;
     background: none repeat scroll 0% 0% #FF25D4;
     padding: 1px 4px;
     border-radius: 4px;
@@ -828,7 +828,7 @@ body {
 .battle-log {
     position: absolute;
     text-align: left;
-    border: 1px solid #AAA;
+    border: 1px solid #000;
     background: none repeat scroll 0% 0% #2B2B2B;
     color: #FFF;
     top: 9px;
@@ -899,7 +899,7 @@ body {
 }
 
 .sandstormweather {
-    background: url("https://33.media.tumblr.com/89e5feeda1d40e9d71f50086a3756acd/tumblr_nf3onkSVEy1u1nuzeo1_500.gif");
+    background: url("http://i.imgur.com/7aOSLI4.gif");
 }
 
 .sunweather, .sunnydayweather {
