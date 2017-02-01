@@ -197,6 +197,7 @@ exports.customavatars = {
 	'togedemarumega': 'toge.gif',
 	'emperorgaming': 'emp.png',
 	'brokenhope': 'hope.png',
+	'philmiester': 'phil1.jpg',
 };
 
 // tourroom - specify a room to receive tournament announcements (defaults to
