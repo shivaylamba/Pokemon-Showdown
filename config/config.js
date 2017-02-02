@@ -195,7 +195,7 @@ exports.customavatars = {
 	'nekis13': 'nekis.png',
 	'oriolesfan52': 'orioles.png',
 	'togedemarumega': 'toge.gif',
-	'emperorgaming': 'emp.png',
+	'emperorgaming': 'emp2.png',
 	'brokenhope': 'hope.png',
 	'philmiester': 'phil1.jpg',
 	'jiryro': 'mark.png',
