@@ -198,6 +198,7 @@ exports.customavatars = {
 	'emperorgaming': 'emp.png',
 	'brokenhope': 'hope.png',
 	'philmiester': 'phil1.jpg',
+	'jiryro': 'mark.png',
 };
 
 // tourroom - specify a room to receive tournament announcements (defaults to
