@@ -1,0 +1,4 @@
+		kagunerules: function(target, room, user) {
+		if (!this.canBroadcast()) return;
+		this.sendReplyBox('<font size="4" color="#9E0000"><b>Kagune Rules</b></font><br><font size="2" color="#9E0000">1.) Staff members are not to warn, mute, or lock any other staff without an admin\'s permission (unless of course they break a global rule)<br>2.) Anyone who mentions nudes will receive an instant lock. If they mention it again, they will be banned, no questions asked.<br>3.) All warnings, mutes, and locks should be delivered maturely and for warranted reasons, not personal reasons.<br>4.) Staff, please remember that locks are a final measure for discipline, and to deliver warns and mutes first, lock only if the behaviour continues.<br>5.) Be nice.<br>6.) Any flirting from Dyna is purely accidental because she is stupid. Please do not take it seriously.<br>7.) We do not talk about the Wonder Guard Sableye incident. ');
+	},
