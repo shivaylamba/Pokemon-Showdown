@@ -17,9 +17,11 @@ exports.parseEmoticons = parseEmoticons;
 if (typeof demFeels.extendEmotes === 'function') {
 	// example extending emotes
 	demFeels.extendEmotes({
-		'(ditto)': 'https://cdn.betterttv.net/emote/554da1a289d53f2d12781907/2x',
-		'#freewolf': 'http://i.imgur.com/ybxWXiG.png',
-		'feelsbn': 'http://i.imgur.com/wp51rIg.png',
+		'zaa':'http://i.imgur.com/j4c4T0p.png',
+		'Kappa': 'http://i.imgur.com/ZxRU4z3.png?1',
+		'feelsdyna':'http://i.imgur.com/pqkCFZx.png',
+		'feelskaneki':'http://i.imgur.com/h97QxFN.png',
+		'feels
 	});
 }
 
