@@ -17,11 +17,9 @@ exports.parseEmoticons = parseEmoticons;
 if (typeof demFeels.extendEmotes === 'function') {
 	// example extending emotes
 	demFeels.extendEmotes({
-		'zaa':'http://i.imgur.com/j4c4T0p.png',
-		'Kappa': 'http://i.imgur.com/ZxRU4z3.png?1',
-		'feelsdyna':'http://i.imgur.com/pqkCFZx.png',
-		'feelskaneki':'http://i.imgur.com/h97QxFN.png',
-		'feels
+		'(ditto)': 'https://cdn.betterttv.net/emote/554da1a289d53f2d12781907/2x',
+		'#freewolf': 'http://i.imgur.com/ybxWXiG.png',
+		'feelsbn': 'http://i.imgur.com/wp51rIg.png',
 	});
 }
 
@@ -54,7 +52,7 @@ function parseEmoticons(message, room, user, pm) {
 	if (!match) return false;
 
 	// escape HTML
-	message = Chat.escapeHTML(message);
+	message = Tools.escapeHTML(message);
 
 	// add emotes
 	message = demFeels(message);
@@ -66,7 +64,7 @@ function parseEmoticons(message, room, user, pm) {
 	message = message.replace(/\*\*([^< ](?:[^<]*?[^< ])?)\*\*/g, '<b>$1</b>');
 
 	let group = user.getIdentity().charAt(0);
-	if (room && room.auth) group = room.auth[user.userid] || group;
+	if (room.auth) group = room.auth[user.userid] || group;
 	if (pm && !user.hiding) group = user.group;
 
 	if (pm) return "<div class='chat' style='display:inline'>" + "<em class='mine'>" + message + "</em></div>";
@@ -75,9 +73,6 @@ function parseEmoticons(message, room, user, pm) {
 	message = "<div class='chat'>" + "<small>" + group + "</small>" + "<button name='parseCommand' value='/user " + user.name + "' style='" + style + "'>" + "<b><font color='" + color(user.userid) + "'>" + user.name + ":</font></b>" + "</button><em class='mine'>" + message + "</em></div>";
 
 	room.addRaw(message);
-
-	room.update();
-
 	return true;
 }
 
